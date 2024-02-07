@@ -101,3 +101,121 @@ a {
  overflow: hidden;
  transition: all 0.3 ease-in-out;
 }
+
+/* seccion */
+.seccion {
+ padding-top: 4vh;
+ height: 96vh;
+ margin: 0 10 rem;
+ box-sizing: border-box;
+ min-height: fit fit-content;
+}
+
+section-container {
+ display: flex;
+}
+
+/* seccion del perfil */
+
+#perfil {
+ display: flex;
+ justify-content: center;
+ gap: 5rem;
+ height: 80vh;
+}
+
+.foto-perfil {
+ display: flex;
+ height: 600px;
+ width: 600px;
+ margin: auto 0;
+}
+
+.seccion-textos {
+ align-self: center;
+ text-align: center;
+}
+
+.seccion-textos p {
+ font-weight: 600;
+}
+
+.section-textos-p1 {
+ text-align: center;
+}
+
+.section-textos-p1 {
+ text-align: center;
+}
+
+.section-textos-p1 {
+ font-size: 1.75rem;
+ margin-bottom: 1rem;
+}
+
+.titulo {
+ font-size: 3rem;
+ text-align: center;
+}
+
+#contenedor-social {
+ display: flex;
+ justify-content: center;
+ margin-top: 1rem;
+ gap: 1rem;
+}
+
+/* Iconos */
+
+.icon {
+ cursor: pointer;
+ height: 2rem;
+}
+
+/* Botones */
+
+.btn-contenedor {
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+}
+
+.btn {
+ font-weight: 600;
+ transition: all 300ms ease;
+ padding: 1rem;
+ width: 8rem;
+ border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+ border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+ cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+ background: rgb(53, 53, 53);
+ color: white;
+}
+
+.btn-color-1:hover {
+ background: rgb(255, 255, 255);
+}
+
+.btn-color-2 {
+ background: none;
+}
+
+.btn-color-2:hover {
+ border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-contenedor {
+ gap: 1rem;
+}
