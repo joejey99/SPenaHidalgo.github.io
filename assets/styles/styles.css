@@ -191,11 +191,6 @@ section-container {
  margin-bottom: 20px;
 } */
 
-.titulo {
- font-size: 3rem;
- text-align: center;
-}
-
 #contenedor-social {
  display: flex;
  justify-content: center;
