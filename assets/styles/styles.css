@@ -148,9 +148,9 @@ a:hover {
 .seccion {
  padding-top: 4vh;
  height: 96vh;
- margin: 0 10 rem;
+ margin: 0 10rem;
  box-sizing: border-box;
- min-height: fit fit-content;
+ min-height: fit-content;
 }
 
 section-container {
@@ -158,19 +158,19 @@ section-container {
 }
 
 /* seccion del perfil */
-
-#perfil {
+.perfil {
  display: flex;
  justify-content: center;
  gap: 5rem;
  height: 80vh;
 }
 
-.foto-perfil {
+.foto-perfil img {
  display: flex;
- height: 600px;
- width: 600px;
+ height: 500px;
+ width: auto;
  margin: auto 0;
+ border-radius: 20%;
 }
 
 .seccion-textos {
@@ -182,14 +182,14 @@ section-container {
  font-weight: 600;
 }
 
-.section-textos-p1 {
+/* .section-textos-p2 {
  text-align: center;
 }
 
-.section-textos-p1 {
- font-size: 1.75rem;
- margin-bottom: 1rem;
-}
+.section-textos-p2 {
+ font-size: 30px;
+ margin-bottom: 20px;
+} */
 
 .titulo {
  font-size: 3rem;
