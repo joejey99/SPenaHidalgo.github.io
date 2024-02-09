@@ -23,43 +23,49 @@
   <title>Portafolio Módulo 1</title>
  </head>
 
-
  <body>
-<nav id="desktop-nav">
-      <div class="logo">
-        <a
-     class="navbar-brand"
-     target="_blank"
-     href="https://github.com/SPenaHidalgo?tab=repositories" >
-     <img src="./assets/img/github.svg" width="60" alt="Logo github" /> </a>
-</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#acerca-de-mi">Acerca de mí</a></li>
-          <li><a href="#experiencia">Experiencia</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
-
-<nav id="hamburger-nav">
-      <div class="logo"></div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#acerca-de-mi" onclick="toggleMenu()">Acerca de mí</a></li>
-          <li><a href="#experiencia" onclick="toggleMenu()">Experiencia</a></li>
-          <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
-          <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
-        </div>
-      </div>
-    </nav>
-
+  <div class="container">
+   <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+     <div class="logo">
+      <a
+       class="navbar-brand"
+       target="_blank"
+       href="https://github.com/SPenaHidalgo?tab=repositories"
+      >
+       <img src="./assets/img/github.svg" width="60" alt="Logo github" />
+      </a>
+     </div>
+     <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+     >
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#acerca-de-mi">Acerca de mí</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#experiencia">Experiencia</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#proyectos">Proyectos</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contacto">Contacto</a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </div>
 
   <section id="acerca-de-mi" class="perfil">
    <div class="foto-perfil">
@@ -68,103 +74,145 @@
    <div class="seccion-textos">
     <h1 class="titulo">Sebastián Peña H.</h1>
     <p class="seccion-textos-p2">Estudiante de programación Full Stack en Academia DesafioLatam</p>
-    <p class="seccion-textos-p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ducimus repudiandae est!</p>
+    <p class="seccion-textos-p2">
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ducimus repudiandae est!
+    </p>
     <div class="btn-contenedor">
-     <button class="btn btn-color-1" onclick="window.open()">Revisa mi CV</button>
+     <button class="btn btn-color-1">Revisa mi CV</button>
     </div>
    </div>
   </section>
 
-
   <section id="experiencia">
-    <div class="textos-inicio py-3">
-     <p class="text-center">Conoce sobre mi</p>
-     <h2 class="text-center">Experiencia</h2>
-    </div>
-<div class="card-group container text-center">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Gestor territorial, CMPC Planta Laja</h5>
-      <p class="card-text">Funciones enfocadas en gestionar de forma adecuada los recursos comunales, verificando a su vez la correcta realización de las labores en terreno.</p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"> Nutricionista, Hospital de la Familia y la Comunidad, Laja</h5>
-      <p class="card-text">Realización de controles nutricionales a través de todo en el ciclo vital, como también planificación alimentaria en pacientes hospitalizados con diversas patologías</p>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Nutricionista Administrador de Casino, Quellón</h5>
-      <p class="card-text">Entrega de servicio alimentario a trabajadores, como también adecuada gestión de pedidos de alimentas y del personal a cargo</p>
-    </div>
-  </div>
-</div>
+   <div class="textos-inicio">
+    <p class="text-center">Conoce sobre mi</p>
+    <h2 class="text-center">Experiencia</h2>
+   </div>
 
- <section id="proyectos">
-  <div class="textos-inicio py-3">
-   <p class="text-center">Algunos de mis</p>
-   <h2 class="text-center">Proyectos</h2>
-  </div>
-    <div class="container d-flex gap-5 text-center">  
-      <div class="card" style="width: 25rem;">
-  <img src="./assets/img/proyecto 1.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Proyecto Cuppon</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium? Nihil maiores facilis amet mollitia!.</p>
-    <a href="https://github.com/SPenaHidalgo/Repo_Proyectocuppon.git" class="btn btn-color-2">Ver más</a>
-  </div>
-</div>
-<div class="card" style="width: 25rem;">
-  <img src="./assets/img/proyecto 2.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Proyecto Iguana Page</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium? Nihil maiores facilis amet mollitia!.</p>
-    <a href="https://github.com/SPenaHidalgo/Repo_Iguanapage.git" class="btn btn-color-2">Ver más</a>
-  </div>
-</div>
-<div class="card" style="width: 25rem;">
-  <img src="./assets/img/proyecto 3.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Proyecto Landing Page</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium? Nihil maiores facilis amet mollitia!.</p>
-    <a href="https://github.com/SPenaHidalgo/Repo_Landingpage.git" class="btn btn-color-2">Ver más</a>
-  </div>
-</div>
+   <div class="container">
+    <div class="card-group row row-cols-1 row-cols-lg-3">
+     <div class="card">
+      <div class="card-body">
+       <h5 class="card-title">Gestor del territorio y la comuna, CMPC Planta Laja</h5>
+       <p class="card-text">
+        Funciones enfocadas en gestionar de forma adecuada los recursos comunales, verificando a su
+        vez la correcta realización de las labores en terreno.
+       </p>
+      </div>
+     </div>
+     <div class="card">
+      <div class="card-body">
+       <h5 class="card-title">Nutricionista, Hospital de la Familia y la Comunidad, Laja</h5>
+       <p class="card-text">
+        Realización de controles nutricionales a través de todo en el ciclo vital, como también
+        planificación alimentaria en pacientes hospitalizados con diversas patologías
+       </p>
+      </div>
+     </div>
+     <div class="card">
+      <div class="card-body">
+       <h5 class="card-title">Nutricionista Administrador de Casino, Quellón</h5>
+       <p class="card-text">
+        Entrega de servicio alimentario a trabajadores, como también adecuada gestión de pedidos de
+        alimentos y del personal a cargo
+       </p>
+      </div>
+     </div>
     </div>
- </section>
+   </div>
+  </section>
 
+  <section id="proyectos">
+   <div class="textos-inicio py-3">
+    <p class="text-center">Algunos de mis</p>
+    <h2 class="text-center">Proyectos</h2>
+   </div>
 
- <section id="contacto" class="contacto">
-  <div class="container">
-   <form class="py-3">
-    <legend class="text-center">Contáctame</legend>
-    <div class="mb-3">
-     <label for="exampleInputName" class="form-label">Nombre</label>
-     <input type="text" class="form-control" id="exampleInputName" />
+   <div class="container">
+    <div class="row row-cols-1 row-cols-lg-3 g-4 py-5">
+     <div class="col">
+      <div class="card h-100">
+       <img src="./assets/img/proyecto 1.png" class="card-img-top" alt="alquiler" />
+       <div class="card-body">
+        <div class="lead align-bottom text-center">
+         <h5 class="card-title">Proyecto Cuppon</h5>
+         <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium? Nihil
+          maiores facilis amet mollitia!.
+         </p>
+         <a href="https://github.com/SPenaHidalgo/Repo_Proyectocuppon.git" class="btn btn-color-2"
+          >Ver más</a
+         >
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="col">
+      <div class="card h-100">
+       <img src="./assets/img/proyecto 2.png" class="card-img-top" alt="cena" />
+       <div class="card-body">
+        <div class="lead align-bottom text-center">
+         <h5 class="card-title">Proyecto Cuppon</h5>
+         <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium? Nihil
+          maiores facilis amet mollitia!.
+         </p>
+         <a href="https://github.com/SPenaHidalgo/Repo_Proyectocuppon.git" class="btn btn-color-2"
+          >Ver más</a
+         >
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="col">
+      <div class="card h-100">
+       <img src="./assets/img/proyecto 3.png" class="card-img-top" alt="dentista" />
+       <div class="card-body">
+        <div class="lead align-bottom text-center">
+         <h5 class="card-title">Proyecto Cuppon</h5>
+         <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium? Nihil
+          maiores facilis amet mollitia!.
+         </p>
+         <a href="https://github.com/SPenaHidalgo/Repo_Proyectocuppon.git" class="btn btn-color-2"
+          >Ver más</a
+         >
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
-    <div class="mb-3">
-     <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-     <input
-      type="email"
-      class="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-     />
-    </div>
-   </form>
-   <form class="pb-3 text-center">
-    <button type="submit" class="btn btn-color-2">Enviar</button>
-   </form>
-  </div>
- </section> 
+   </div>
+  </section>
 
-<footer>
-    <p class="text-black">
-     &copy; 2024 Academia DesafioLatam. Hecho con fines académicos.
-    </p>
-</footer>
+  <section id="contacto" class="contacto">
+   <div class="container">
+    <form class="py-3">
+     <legend class="text-center">Contáctame</legend>
+     <div class="mb-3">
+      <label for="exampleInputName" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="exampleInputName" />
+     </div>
+     <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+      <input
+       type="email"
+       class="form-control"
+       id="exampleInputEmail1"
+       aria-describedby="emailHelp"
+      />
+     </div>
+    </form>
+    <form class="pb-3 text-center">
+     <button type="submit" class="btn btn-color-2">Enviar</button>
+    </form>
+   </div>
+  </section>
 
+  <footer>
+   <p class="text-black">&copy; 2024 Academia DesafioLatam. Hecho con fines académicos.</p>
+  </footer>
  </body>
 </html>
