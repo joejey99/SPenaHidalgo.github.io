@@ -6,7 +6,7 @@
 }
 
 body {
- font-family: "Poppins, sans-serif";
+ font-family: "Raleway", sans-serif;
 }
 
 p {
@@ -22,6 +22,7 @@ a,
 /* seccion del perfil */
 .perfil {
  display: flex;
+ flex-wrap: wrap;
  justify-content: center;
  gap: 80px;
  height: 80vh;
@@ -30,7 +31,7 @@ a,
 
 .foto-perfil img {
  display: flex;
- height: 500px;
+ height: 400px;
  width: auto;
  margin: auto 0;
  border-radius: 20%;
@@ -40,6 +41,7 @@ a,
  align-self: center;
  text-align: center;
 }
+
 
 .seccion-textos p {
  font-weight: 600;
